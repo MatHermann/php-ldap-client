@@ -1,0 +1,38 @@
+{
+  "name": "mathermann/php-ldap-client",
+  "type": "library",
+  "description": "PHP LDAP client",
+  "keywords": [
+    "active directory",
+    "ldap",
+    "ldaps",
+    "sdk",
+    "sso"
+  ],
+  "homepage": "https://github.com/mathermann/php-ldap-client",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/mathermann/php-ldap-client/issues"
+  },
+  "authors": [
+    {
+      "name": "Willy KOUOGANG",
+      "email": "wkouogangkamdem@gmail.com",
+      "homepage": "https://github.com/mathermann"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-ldap": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MatHermann\\Ldap\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  }
+}
